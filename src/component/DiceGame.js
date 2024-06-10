@@ -43,7 +43,6 @@ function DiceGame() {
 
   const handleHoldScore = () => {
     if (playing) {
-      if (currentScore === 1) return;
       setisHolding(true);
 
       const newScores = [...scores];
